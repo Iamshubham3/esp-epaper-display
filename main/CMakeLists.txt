@@ -1,0 +1,10 @@
+idf_component_register(
+    SRCS
+        "display_manager.cpp"
+        "main.cpp"
+        "mqtt_bridge.cpp"
+        "price_parser.cpp"
+        "user_input.cpp"
+        "wifi_manager.cpp"
+    INCLUDE_DIRS
+        ".")
